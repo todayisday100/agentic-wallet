@@ -1,0 +1,26 @@
+{
+  "name": "enclave",
+  "version": "0.1.0-alpha",
+  "description": "On-chain spend control and trust layer for autonomous AI agents",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "x402",
+    "ai-agent",
+    "enclave",
+    "treasury",
+    "budget",
+    "protocol"
+  ],
+  "author": "Enclave",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "boxen": "^5.1.2",
+    "cli-table3": "^0.6.5",
+    "figlet": "^1.7.0",
+    "dotenv": "^16.4.5"
+  }
+}
