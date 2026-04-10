@@ -264,7 +264,7 @@ function start(agents) {
   const rl = state.rl;
   if (!rl) return;
 
-  rl.setPrompt(chalk.cyan('aw') + '> ');
+  rl.setPrompt(chalk.hex('#5B8FFF')('enc') + '> ');
   rl.prompt();
 
   rl.on('line', async (line) => {
